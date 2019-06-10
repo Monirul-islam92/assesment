@@ -1,0 +1,492 @@
+body{
+    margin: 0px;
+}
+.divouter{
+    background:-webkit-gradient(linear, 80% 20%, 8% 100%, from(#524C41), to(#85668C));
+    height:860px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.profileouter{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    display: block;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    border-radius: 5px;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+
+}
+@keyframes slideInFromLeft {
+    0% {
+        /*transform: translateX(-100%);*/
+        opacity: 0;
+    }
+    25% {
+        /*transform: translateX(-100%);*/
+        opacity: .3;
+    }
+    50% {
+        /*transform: translateX(-100%);*/
+        opacity: .5;
+    }
+    70% {
+        /*transform: translateX(-100%);*/
+        opacity: .7;
+    }
+    100% {
+        /*transform: translateX(0);*/
+        opacity: 1;
+    }
+}
+.profilepictureouter{
+    width:200px;
+    height: 200px;
+    /*background: black;*/
+    border-radius: 5px;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+.profileimg{
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+    border-radius: 50%;
+    /*border: 3px solid #524C41;*/
+    /*opacity: 0;*/
+}
+.nameandbioholder{
+    width:400px;
+    height: 200px;
+    /*background: black;*/
+    /*border-radius: 5px;*/
+    /*float: left;*/
+    display: inline-block;
+    position: relative;
+}
+.nameholder{
+    height: 49px;
+    width: 100%;
+    /* background-color: #524C41; */
+    top: 32px;
+    position: relative;
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 49px;
+}
+.bioholder{
+    /*height: 49px; */
+    width: 100%;
+    /*background-color: #524C41;*/
+    /* top: 32px; */
+    position: relative;
+    display: block;
+    height: 113px;
+    top: 32px;
+}
+.bioheader{
+    width: 100%;
+    height: 20px;
+    color: #555555;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.biodescription{
+    width: 100%;
+    /* height: 20px; */
+    color: #cec7c7;
+    font-family: Arial;
+    /* font-weight: bold; */
+    font-size: 11px;
+}
+.phoneandemailholder{
+    width: 296px;
+    height: 200px;
+    /*background: black;*/
+    /* border-radius: 5px; */
+    float: right;
+    display: inline-block;
+    position: relative;
+}
+.phoneouter{
+    width: 100%;
+    /* background-color: #524C41; */
+    /* top: 32px; */
+    position: relative;
+    display: block;
+    height: 113px;
+    top: 81px;
+}
+
+.phoneholder{
+    width: 100%;
+    height: 20px;
+    color: #555555;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.phonenumber{
+    width: 100%;
+    /* height: 20px; */
+    color: #ea6363;
+    font-family: Arial;
+    /* font-weight: bold; */
+    font-size: 11px;
+}
+
+.emailouter{
+    width: 100%;
+    /* background-color: #524C41; */
+    /* top: 32px; */
+    position: relative;
+    display: block;
+    height: 113px;
+    top: 7px;
+}
+
+.emailholder{
+    width: 100%;
+    height: 20px;
+    color: #555555;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.emailaddress{
+    width: 100%;
+    /* height: 20px; */
+    color: #ea6363;
+    font-family: Arial;
+    /* font-weight: bold; */
+    font-size: 11px;
+}
+
+.albumouter{
+    position: relative;
+    display: block;
+    width: 900px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+
+}
+
+.albumcontents{
+    padding: 0px;
+    text-align: center;
+}
+.albumcontentli{
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+
+}
+.theouterli{
+    height: 260px;
+    width: 280px;
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.contentimage{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contentdescription{
+    padding: 7px;
+    color: #cec7c7;
+    font-family: Arial;
+    /* font-weight: bold; */
+    font-size: 11px;
+    text-align: justify;
+}
+.contentfeatureandpublishdate{
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    /*font-size: 12px;*/
+    /*color: darkgrey;*/
+}
+
+.contentpublishdate{
+    float: right;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    width: 85px;
+    font-size: 12px;
+    color: #aaaaaa;
+    line-height: 30px;
+}
+
+.contentfeature{
+    float: left;
+    /* margin-left: 10px; */
+    display: inline-block;
+    position: relative;
+    width: 38px;
+    font-size: 12px;
+    color: darkgrey;
+    /* line-height: 30px; */
+    margin-top: 4px;
+}
+@media only screen and (max-width: 918px) {
+    .profileouter {
+        width: calc(100% - 60px);
+    }
+    .profilepictureouter{
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        float: left;
+        display: inline-block;
+        position: relative;
+    }
+    .divouter {
+        background: -webkit-gradient(linear, 80% 20%, 8% 100%, from(#524C41), to(#85668C));
+        height: auto;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .profileimg {
+        position: relative;
+        display: block;
+        width: 140px;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 32px;
+        border-radius: 50%;
+        /* border: 3px solid #524C41; */
+    }
+
+    .nameandbioholder {
+        width: 400px;
+        height: 120px;
+        /* background: black; */
+        /* border-radius: 5px; */
+        /* float: left; */
+        display: inline-block;
+        position: relative;
+    }
+
+    .nameholder {
+        height: 49px;
+        width: 100%;
+        /* background-color: #524C41; */
+        top: 8px;
+        position: relative;
+        display: block;
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 49px;
+    }
+
+    .bioholder {
+        /* height: 49px; */
+        width: 100%;
+        /* background-color: #524C41; */
+        /*top: 32px; */
+        position: relative;
+        display: block;
+        height: 62px;
+        top: 3px;
+        overflow: hidden;
+    }
+    .bioheader {
+        width: 100%;
+        height: 20px;
+        color: #555555;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .biodescription {
+        width: 100%;
+        /* height: 20px; */
+        color: #cec7c7;
+        font-family: Arial;
+        /* font-weight: bold; */
+        font-size: 11px;
+    }
+    .phoneandemailholder {
+        width: 296px;
+        height: 93px;
+        /* background: black; */
+        /* border-radius: 5px; */
+        float: left;
+        display: inline-block;
+        position: relative;
+    }
+
+    .phoneouter {
+        width: 100%;
+        /* background-color: #524C41; */
+        /* top: 32px; */
+        position: relative;
+        display: block;
+        height: auto;
+        top: 0px;
+    }
+    .emailouter {
+        width: 100%;
+        /* background-color: #524C41; */
+        /* top: 32px; */
+        position: relative;
+        display: block;
+        height: auto;
+        top: 7px;
+    }
+    .albumouter{
+        width: calc(100% - 60px);
+    }
+    .albumcontentli {
+        position: relative;
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 678px) {
+    .divouter {
+        background: -webkit-gradient(linear, 80% 20%, 8% 100%, from(#524C41), to(#85668C));
+        height: auto;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .profilepictureouter{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        float: left;
+        display: inline-block;
+        position: relative;
+    }
+    .nameandbioholder{
+        width: calc(100% - 152px);
+    }
+    .phoneandemailholder{
+        width: calc(100% - 152px);
+    }
+    .biodescription {
+        font-size: 10px;
+    }
+    .nameholder {
+        font-size: 16px;
+
+    }
+}
+
+@media only screen and (max-width: 681px) {
+    .albumouter{
+        width: calc(100% - 60px);
+    }
+    .albumcontentli {
+        position: relative;
+        display: inline-block;
+        width: calc(100% - 60px);
+        text-align: center;
+    }
+    .divouter {
+        background: -webkit-gradient(linear, 80% 20%, 8% 100%, from(#524C41), to(#85668C));
+        height: auto;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .biodescription {
+        font-size: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 681px) {
+    .profileouter {
+        width: calc(100% - 10px);
+    }
+
+
+}
+@media only screen and (max-width: 393px) {
+    .albumouter {
+        width: calc(100% - 10px);
+    }
+    .albumcontentli {
+        position: relative;
+        display: inline-block;
+        width: calc(100% - 10px);
+        text-align: center;
+    }
+
+
+}
+
+.animate {
+    -moz-animation: fadeIn 1s ease-in;
+    -webkit-animation: fadeIn 1s ease-in;
+    animation: fadeIn ease-in 1s 1;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.transparenthalf {
+    position: absolute;
+    height: 32px;
+    width: 280px;
+    z-index: 1;
+    margin-top: -33px;
+    /* background-color: red; */
+    /* margin-top: 125px; */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 100%);
+    color: #ffffff;
+}
+.titlediv{
+    position: absolute;
+    height: 32px;
+    /* width: 174px; */
+    z-index: 99;
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #f6f6f6;
+    margin-top: -23px;
+    padding-left: 5px;
+    text-shadow: 0 0 3px black;
+}
